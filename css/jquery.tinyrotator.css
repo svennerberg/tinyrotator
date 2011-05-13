@@ -1,0 +1,41 @@
+.tinyrotator{
+  display: inline-block;
+  background: #eee;
+  padding: 10px 10px 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.tinyrotator div {
+  /* Change these dimensions to adjust the main image size */
+  height: 265px;
+  width: 200px;
+  overflow: hidden;
+}
+.tinyrotator div img {
+  width: 100%;
+}
+.tinyrotator ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  max-width: 200px;
+}
+.tinyrotator li {
+  float: left;
+  width: 46px;
+  height: 46px;
+  padding: 2px;
+}
+.tinyrotator li img {
+  /* Change these dimensions to adjust the size of the thumbnails */
+  width: 100%;
+  height: 100%;
+}
+.tinyrotator li.selected  {
+  background-color: #6cf;
+}
