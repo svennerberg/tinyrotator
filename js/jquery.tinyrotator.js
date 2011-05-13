@@ -1,4 +1,4 @@
-/*
+﻿/*
 * TinyRotator 0.3 (2011-04-29)
 * (c) 2011 Gabriel Svennerberg <gabriel@svennerberg.com>
 *
